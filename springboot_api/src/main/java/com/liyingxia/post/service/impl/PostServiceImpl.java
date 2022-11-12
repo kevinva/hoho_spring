@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 import java.util.List;
 
-@Service  // hoho_todo
+@Service
 public class PostServiceImpl implements PostService {
 
     @Autowired

@@ -11,7 +11,7 @@ import java.beans.PropertyVetoException;
 @Configuration
 @MapperScan("com.liyingxia.post.dao") // hoho_todp
 public class DataSourceConfig {
-    @Value("${jdbc.driver}")  // hoho_todo
+    @Value("${jdbc.driver}")
     private String jdbcDriver;
 
     @Value("${jdbc.url}")
@@ -23,7 +23,7 @@ public class DataSourceConfig {
     @Value("${jdbc.password}")
     private String jdbcPassword;
 
-    @Bean(name = "dataSource")  // hoho_todo
+    @Bean(name = "dataSource")  //
     public ComboPooledDataSource createDataSource() throws PropertyVetoException {
         // 生成datasource实例
         ComboPooledDataSource dataSource = new ComboPooledDataSource();

@@ -35,7 +35,7 @@ public class SessionFactoryConfig {
     @Value("${type_alias_package}")
     private String typeAliasPackage;
 
-    @Autowired // hoho_todo
+    @Autowired
     private DataSource dataSource;
 
     @Bean(name = "sqlSessionFactory")

@@ -15,8 +15,8 @@ public class EurakeConsumerApplication {
         SpringApplication.run(EurakeConsumerApplication.class, args);
     }
 
-    @Bean  // hoho_todo
-    @LoadBalanced  // hoho_todo
+    @Bean
+    @LoadBalanced
     // 加入restTemplate来消费相关服务
     RestTemplate restTemplate() {
         return new RestTemplate();

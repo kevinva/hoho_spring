@@ -16,6 +16,7 @@
     <module>cloud-eureka-server</module>
     <module>cloud-eureka-server02</module>
     <module>cloud-provide2-payment02</module>
+    <module>cloud-consumer-feign-order</module>
   </modules>
 
 
